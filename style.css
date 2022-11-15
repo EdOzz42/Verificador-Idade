@@ -1,6 +1,9 @@
 body {
-    background: rgb(60, 81, 97);
-    font: normal 20pt Arial;
+    background: rgb(41, 77, 74);
+    font: normal 17pt Arial;
+    min-width: 275px;
+    max-width: 1000px;
+    margin: auto;
     }
     
     header {
@@ -8,23 +11,32 @@ body {
         text-align: center;
     }
     
-    section {
+    main {
         background: white;
         color: black;
         border-radius: 10px;
-        padding: 15px;
-        width: 400px;
-        margin: auto;
+        padding: 18px;
     }
     
+    input {
+        border-radius: 5px;
+        border: 3px solid rgb(52, 90, 87);
+        background-color: rgba(127, 255, 212, 0.150);
+        font-size: 11pt;
+    }
+
+
     footer {
-        margin-top: 60%;
+        margin-top: 5%;
         text-align: center;
         color: rgb(255, 255, 255);
-        font-size: 20px;
+        font-size: 15pt;
     }
     
     .github {
-        text-decoration:none;
-        color: rgb(0, 247, 255);
+        text-decoration: none;
+        color: aquamarine;
+        background-color: rgba(127, 255, 212, 0.150);
+        border: 1px solid aquamarine;
+        border-radius: 5px;
     }
