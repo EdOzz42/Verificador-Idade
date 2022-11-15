@@ -55,12 +55,10 @@ function exec() {
             }
         }      
         resultado.style.textAlign = "center"
-        resultado.innerHTML = `O resultado foi: ${gender} com ${idade} anos.`
+        resultado.innerHTML = `O resultado é: ${gender} com ${idade} anos.`
         resultado.appendChild(img)
         img.style.marginTop = "20px"
         img.style.width = "55%"
         img.style.height = "55%"
     }
-
-
 }
