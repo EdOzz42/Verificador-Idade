@@ -2,7 +2,7 @@ body {
     background: rgb(41, 77, 74);
     font: normal 17pt Arial;
     min-width: 275px;
-    max-width: 1000px;
+    max-width: 800px;
     margin: auto;
     }
     
@@ -24,7 +24,6 @@ body {
         background-color: rgba(127, 255, 212, 0.150);
         font-size: 11pt;
     }
-
 
     footer {
         margin-top: 5%;

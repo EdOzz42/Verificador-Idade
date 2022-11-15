@@ -58,6 +58,8 @@ function exec() {
         resultado.innerHTML = `O resultado foi: ${gender} com ${idade} anos.`
         resultado.appendChild(img)
         img.style.marginTop = "20px"
+        img.style.width = "55%"
+        img.style.height = "55%"
     }
 
 
