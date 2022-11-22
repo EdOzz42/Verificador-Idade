@@ -16,7 +16,7 @@ function exec() {
     let resultado = document.getElementById("res")
 
     if (formAno.value.length == 0 || formAno.value > ano || formAno.value < ano - 120) {
-        window.alert("[ERRO] Verefique os dados e tente novamente!")
+        window.alert("[ERRO] Verifique os dados e tente novamente!")
     } else {
         let formSexo = document.getElementsByName("inpSexo")
         let idade = ano - Number(formAno.value)
